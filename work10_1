@@ -1,4 +1,4 @@
 a, b = 0, 1
 for _ in range(100):
   a, b = b, a + b
-  print(str(format(a, 'b')).replace('0', '○').replace('1', '●'))
+  print(format(a, 'b').replace('0', '○').replace('1', '●'))
